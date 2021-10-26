@@ -23,41 +23,41 @@ export default function Home() {
 
       <Main>
         <h1 className={styles.title}>
-          <a href="https://nextjs.org">Next.js</a> Sass Starter
+          <a className="test" href="https://www.smyers.net">Smyers</a> Family
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          We help people <code>smyers/index.js</code>
         </p>
 
         <Grid>
           <Card>
-            <a href="https://nextjs.org/docs">
-              <h2>Documentation &rarr;</h2>
-              <p>Find in-depth information about Next.js features and API.</p>
+            <a href="//smyers.net/mike">
+              <h2>Mike &rarr;</h2>
+              <p>Engineer.</p>
             </a>
           </Card>
 
           <Card>
-            <a href="https://nextjs.org/learn">
-              <h2>Learn &rarr;</h2>
-              <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <a href="//smyers.net/robin">
+              <h2>Robin &rarr;</h2>
+              <p>Pastor.</p>
             </a>
           </Card>
 
           <Card>
-            <a href="https://github.com/vercel/next.js/tree/master/examples">
-              <h2>Examples &rarr;</h2>
-              <p>Discover and deploy boilerplate example Next.js projects.</p>
+            <a href="//smyers.net/michael">
+              <h2>Michael &rarr;</h2>
+              <p>Entrepreneur.</p>
             </a>
           </Card>
 
           <Card>
             <a
-              href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="//smyers.net/cassandra"
             >
-              <h2>Deploy &rarr;</h2>
-              <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
+              <h2>Cassandra &rarr;</h2>
+              <p>Educator.</p>
             </a>
           </Card>
         </Grid>

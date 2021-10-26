@@ -23,3 +23,13 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+a.test  {
+  //.text-gradient-pink-blue {
+  background: -webkit-linear-gradient(
+                  -70deg, #db469f 0%, #2188ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
