@@ -24,7 +24,7 @@
 .title,
 .description {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .title {
@@ -33,6 +33,23 @@
 
 .description {
   line-height: 1.5;
-  font-size: 3vw;
-  //font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.back {
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+.values {
+  font-size: 2.5vw;
+}
+
+//.values span {
+//
+//}
+
+.values_wrap {
+  display: flex;
+  flex-direction: column;
 }

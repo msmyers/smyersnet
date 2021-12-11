@@ -4,10 +4,18 @@
 
 html,
 body {
+  background: black;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  //@media (max-width: 600px) {
+  //  font-size: 3.2vw;
+  //}
+
+  // because it keeps growing when Typed.js moves.
+  overflow-x: hidden;
 }
 
 a {
@@ -32,4 +40,31 @@ a.test  {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-box-decoration-break: clone;
+}
+
+.cards * {
+  cursor: pointer;
+}
+
+//h1 {
+//  //font-size: vw;
+//  //display: none;
+//}
+
+//p {
+//  font-size: 30px;
+//  font-size: .5vw;
+//}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+h2 {
+  white-space: nowrap;
+}
+
+.back {
+  margin-top: 3rem;
+  padding-top: 3rem;
 }
