@@ -2,8 +2,13 @@ version: '3.1'
 
 services:
   smyersnet:
+    container_name: 'www-smyersnet'
     ports:
-      - "3000:3000"
+      - "2002:3000"
     build:
       context: .
       dockerfile: Dockerfile
+
+networks:
+  homedock:
+    external: true
