@@ -18,7 +18,7 @@ export default function Home() {
                 <meta name="color-scheme" content="dark"/>
                 <meta
                     name="description"
-                    content="Smyers" />
+                    content="Smyers"/>
             </Head>
 
             <Main>
@@ -27,12 +27,12 @@ export default function Home() {
                 </h1>
 
                 <p className={styles.description}>
-                    We help people
+                    We help people.
                     {/*<code>smyers/index.js</code>*/}
                 </p>
 
-            <Grid className={"cards"}>
-                <Link href="/mike-smyers">
+                <Grid className={"cards"}>
+                    <Link href="/mike-smyers">
                         <Card>
                             <h2>Mike &rarr;</h2>
                             <p>Engineer.</p>
