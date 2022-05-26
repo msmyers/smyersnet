@@ -37,7 +37,7 @@ export default function CassandraSmyers() {
             <Main>
                 <h1 className={CSS.title}>
                     <Typed strings={[ 'Cassandra']} typeSpeed={40}></Typed>
-                    <a className="test" href="https://www.smyers.net">Smyers</a>
+                    <a className="test" href="/">Smyers</a>
                 </h1>
 
                 <div className={CSS.values_wrap}>
