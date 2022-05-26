@@ -68,3 +68,8 @@ h2 {
   margin-top: 3rem;
   padding-top: 3rem;
 }
+
+.typed-complete .typed-cursor.typed-cursor--blink {
+  visibility: hidden;
+  //display:none;
+}
